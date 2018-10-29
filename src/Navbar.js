@@ -34,7 +34,8 @@ onClickCollapseMenu() {
         </button>
 
         <div className={collapseMenuClassSwitch} id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
+          <br />
+          <ul  className="navbar-nav mr-auto">
             <li className="nav-item">
               <a className="nav-link text-success" href="#">Продукция <span className="sr-only">(current)</span></a>
             </li>

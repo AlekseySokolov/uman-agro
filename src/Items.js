@@ -1,19 +1,90 @@
+import pshenica from './images/Пшеница.jpg';
+import yachmen from './images/Ячмень.jpg';
+import raps from './images/Рапс.jpg';
+import rizik from './images/Рыжик.jpg';
+import nut from './images/Нут.jpg';
+import kukuruza from './images/Кукуруза.jpg';
+import goroh from './images/Горох.jpg';
+import gorchiza from './images/Горчица.jpg';
+import podsolnechnik from './images/Подсолнечник.jpeg';
+import grechiha from './images/Гречиха.jpg';
+import roj from './images/Рожь.jpg';
+import oves from './images/Овес.jpg';
+import soya from './images/Соя.jpg';
+import len from './images/Лен.jpg';
+
 const items = [
   {
-    src:'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_165f7f9169f%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_165f7f9169f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22217.7%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+    src:pshenica,
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_165f7f916a0%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_165f7f916a0%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22217.7%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+    src: yachmen,
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_165f7f916a0%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_165f7f916a0%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+    src: raps,
     altText: 'Slide 3',
     caption: 'Slide 3'
+  },
+  {
+    src: rizik,
+    altText: 'Slide 4',
+    caption: 'Slide 4'
+  },
+  {
+    src: nut,
+    altText: 'Slide 5',
+    caption: 'Slide 5'
+  },
+  {
+    src: kukuruza,
+    altText: 'Slide 6',
+    caption: 'Slide 6'
+  },
+  {
+    src: goroh,
+    altText: 'Slide 7',
+    caption: 'Slide 7'
+  },
+  {
+    src: gorchiza,
+    altText: 'Slide 8',
+    caption: 'Slide 8'
+  },
+  {
+    src: podsolnechnik,
+    altText: 'Slide 9',
+    caption: 'Slide 9'
+  },
+  {
+    src: grechiha,
+    altText: 'Slide 10',
+    caption: 'Slide 10'
+  },
+  {
+    src: roj,
+    altText: 'Slide 11',
+    caption: 'Slide 11'
+  },
+  {
+    src: oves,
+    altText: 'Slide 12',
+    caption: 'Slide 12'
+  },
+  {
+    src: soya,
+    altText: 'Slide 13',
+    caption: 'Slide 13'
+  },
+  {
+    src: len,
+    altText: 'Slide 14',
+    caption: 'Slide 14'
   }
+
 ];
 
 export default items;

@@ -28,19 +28,25 @@
 
 .productCard {
   cursor: pointer;
-  background-color: grey;
   width: 17vmin;
   height: 17vmin;
-  margin: 0.15vmin;
   display: inline-block;
-  transition: 0.5s;
+  text-align: center;
+  color: transparent;
+  font-size: 1.8vmin;
 
 }
 
 .productCard.active {
   cursor: pointer;
-  background-color: black;
-  transition: 0.5s;
+  background-color: #5cb85c;
+  font-size: 1.8vmin;
+  color: white;
+  text-align:center;
+  width: 17vmin;
+  height: 17vmin;
+  transition: 0.3s;
+  padding-top: 7vmin;
 }
 
 .cardImg {

@@ -5,10 +5,11 @@ import cn from 'classnames';
 import ProductionCard from './ProductionCard';
 import headerWallpaper from './headerWallpaper.jpg';
 import items from './Items.js';
+import cardTitles from './cardTitles';
 
 class Production extends Component {
    render() {
-     const slides = items.map((item, index) => <ProductionCard src={item.src} key={index} alt={item.altText}/>)
+     const slides = items.map((item, index, title) => <ProductionCard title={cardTitles[index]} src={item.src} key={index} alt={item.altText}/>)
     return (
       <div className="container">
        <div className="row">
