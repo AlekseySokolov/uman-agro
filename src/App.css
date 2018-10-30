@@ -10,20 +10,14 @@
 }
 
 .mainLogo {
-  width: 130px;
-  margin-right: 50px;
-}
-
-.navbar {
-  color : white;
+  width: 12vmin;
+  margin-right: 2vmin;
+  margin-bottom: 1vmin;
 }
 
 .headerWallpaper {
   width: inherit;
-}
-
-.navbar-nav {
-  transition: 1s;
+  margin-top: 15vh;
 }
 
 .productCard {
@@ -57,4 +51,8 @@
 .cardImg.active {
   display: none;
   transition: 0.5s;
+}
+.jumbotron.top {
+  background: white;
+  color : black;
 }

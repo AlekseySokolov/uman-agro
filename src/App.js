@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './Navbar.js';
-import Jumbotron from './jumbotron';
+import Jumbotron from './Jumbotron';
 import Header from './Header.js';
 import Production from './Production.js';
+import AboutUs from './AboutUs';
 
 class App extends Component {
   render() {
@@ -12,8 +13,10 @@ class App extends Component {
       <div className="container-fluid">
        <Navbar />
        <br />
-       <Jumbotron />
        <Header />
+       <Jumbotron />
+       <AboutUs />
+       <br />
        <br />
        <br />
        <Production />
