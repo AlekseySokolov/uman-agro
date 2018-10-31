@@ -34,7 +34,7 @@ class ProductionCard extends Component {
       cardImg : true,
       active : this.state.active
     })
-    
+
     return (
      <div className={switcherClassCard} onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}><img className={switcherClassImg} src={this.props.src} />{this.props.title}</div>
     );

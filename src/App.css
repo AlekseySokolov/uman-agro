@@ -1,12 +1,5 @@
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  scroll-behavior:smooth;
 }
 
 .mainLogo {
@@ -15,44 +8,121 @@
   margin-bottom: 1vmin;
 }
 
-.headerWallpaper {
-  width: inherit;
-  margin-top: 15vh;
+.iconPhone {
+  width: 3vmin;
+  margin-bottom: 0.4vh;
+  margin-right: 0.5vh;
 }
 
 .productCard {
-  cursor: pointer;
-  width: 17vmin;
-  height: 17vmin;
+  cursor: default;
+  width: 16.3vmin;
+  height: 16.3vmin;
   display: inline-block;
   text-align: center;
   color: transparent;
-  font-size: 1.8vmin;
-
+  font-size: 2vmin;
+  border: 1px solid #ffbb33;
+  margin: 1vmin;
+  overflow: hidden;
+  padding-top: 1.5vh;
 }
 
 .productCard.active {
-  cursor: pointer;
-  background-color: #5cb85c;
-  font-size: 1.8vmin;
+  cursor: default;
+  background-color: #ffbb33;
+  font-size: 1.7vmin;
   color: white;
-  text-align:center;
-  width: 17vmin;
-  height: 17vmin;
+  text-align: center;
+  width: 16.3vmin;
+  height: 16.3vmin;
   transition: 0.3s;
-  padding-top: 7vmin;
+  padding-top: 6vmin;
+  border-radius: 0.5vmin;
+  transform:scale(1.07);
 }
 
 .cardImg {
   width:inherit;
   transition: 0.5s;
+  transform: scale(0.7);
 }
 
 .cardImg.active {
   display: none;
   transition: 0.5s;
 }
+
 .jumbotron.top {
-  background: white;
+  background: #f5f5f5;
   color : black;
+  margin: 0 !important;
+  padding-top: 5vmin;
+}
+.jumbotron.aboutUs {
+  color : white;
+  text-align: center;
+  margin-bottom: 8vh !important;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+  height: 35vh;
+}
+
+.headerSlideShow {
+  margin-top: calc(12px + 17vmin);
+  margin-bottom: 3.5vmin;
+}
+
+.iconFarm {
+  width: 10vh;
+  margin-bottom: 2vh;
+}
+
+.iconLike {
+  width: 11vh;
+  margin-top: 2vh;
+}
+
+.mainBlockAbout {
+  border-bottom: 1.5vh solid #a8e063;
+  margin-bottom: 7vh;
+  margin-top: 3vmin;
+}
+
+.infoAbout {
+  margin-bottom: 4.5vh;
+}
+
+.aboutUsTitle {
+  margin-top: -3.5vmin
+}
+
+.logosPartners {
+  width: 12.2vmin;
+  height: 12.2vmin;
+  margin: 1vmin;
+  transform: scale(0.7);
+}
+
+.jumbotron.chooseUs {
+  background: white;
+  margin-top: 15vmin;
+}
+
+.titleInfoChooseUs {
+  font-weight: bold;
+  margin: 0;
+}
+
+.infoChooseUs {
+  transition: 0.5s;
+}
+
+.infoChooseUs:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  cursor:default;
+}
+
+.partners {
+  margin-top: 15vmin;
 }

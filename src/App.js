@@ -2,24 +2,24 @@ import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './Navbar.js';
-import Jumbotron from './Jumbotron';
-import Header from './Header.js';
+import Jumbotron from './Jumbotron.js';
+import HeaderSlideshow from './HeaderSlideshow.js';
 import Production from './Production.js';
-import AboutUs from './AboutUs';
+import AboutUs from './AboutUs.js';
+import Partners from './Partners.js';
+import ChooseUs from './СhooseUs.js';
 
 class App extends Component {
   render() {
     return (
       <div className="container-fluid">
        <Navbar />
-       <br />
-       <Header />
+       <HeaderSlideshow />
        <Jumbotron />
        <AboutUs />
-       <br />
-       <br />
-       <br />
        <Production />
+       <ChooseUs />
+       <Partners />
       </div>
     );
   }

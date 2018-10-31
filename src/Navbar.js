@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import cn from 'classnames';
 import mainLogo from './uman.png'
+import iconPhone from './iconPhone.png';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -27,7 +28,7 @@ onClickCollapseMenu() {
     })
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light" style={{boxShadow: "15px 0px 8px -2px rgba(50, 50, 50, 0.75)"}}>
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light" style={{boxShadow: "15px 0px 8px -2px rgba(50, 50, 50, 0.50)", opacity : "0.93"}}>
         <img className="mainLogo" src={mainLogo} />
         <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={this.onClickCollapseMenu}>
           <span className="navbar-toggler-icon"></span>
@@ -50,7 +51,10 @@ onClickCollapseMenu() {
             </li>
           </ul>
           <span className="navbar-text text-info">
-            <p style={{color:"#d9534f",fontWeight:"bold",fontSize:"1.8vh",marginTop : '1vh'}}>Казань, ул.Чистопольская, 71а (8 800 800 00 00)</p>
+            <img className="iconPhone" src={iconPhone} />
+          </span>
+          <span className="navbar-text text-info">
+            <p style={{color:"#d9534f",fontWeight:"bold",fontSize:"1.8vh",marginTop : '2vh'}}>Казань, ул.Чистопольская, 71а (8 800 800 00 00)</p>
           </span>
         </div>
       </nav>
