@@ -1,128 +1,191 @@
-body {
-  scroll-behavior:smooth;
-}
-
+/* -----------navbar styles----------- */
 .mainLogo {
   width: 12vmin;
   margin-right: 2vmin;
   margin-bottom: 1vmin;
 }
-
 .iconPhone {
-  width: 3vmin;
-  margin-bottom: 0.4vh;
+  width: 2vmin;
   margin-right: 0.5vh;
+  margin-bottom: 0.1vh;
 }
 
-.productCard {
-  cursor: default;
-  width: 16.3vmin;
-  height: 16.3vmin;
-  display: inline-block;
-  text-align: center;
-  color: transparent;
-  font-size: 2vmin;
-  border: 1px solid #ffbb33;
-  margin: 1vmin;
-  overflow: hidden;
-  padding-top: 1.5vh;
-}
+/*-----------END navbar styles----------- */
 
-.productCard.active {
-  cursor: default;
-  background-color: #ffbb33;
-  font-size: 1.7vmin;
-  color: white;
-  text-align: center;
-  width: 16.3vmin;
-  height: 16.3vmin;
-  transition: 0.3s;
-  padding-top: 6vmin;
-  border-radius: 0.5vmin;
-  transform:scale(1.07);
-}
 
-.cardImg {
-  width:inherit;
-  transition: 0.5s;
-  transform: scale(0.7);
-}
-
-.cardImg.active {
-  display: none;
-  transition: 0.5s;
-}
-
-.jumbotron.top {
-  background: #f5f5f5;
-  color : black;
-  margin: 0 !important;
-  padding-top: 5vmin;
-}
-.jumbotron.aboutUs {
-  color : white;
-  text-align: center;
-  margin-bottom: 8vh !important;
-  background: linear-gradient(to right, #56ab2f, #a8e063);
-  height: 35vh;
-}
+/* -----------slideshow styles----------- */
 
 .headerSlideShow {
   margin-top: calc(12px + 17vmin);
   margin-bottom: 3.5vmin;
 }
 
+/* -----------END slideshow styles----------- */
+
+
+/* -----------jumbotron-top styles----------- */
+
+.jumbotron.top {
+  margin: 0 !important;
+  padding-top: 5vmin;
+  overflow: hidden;
+  background: #f5f5f5;
+  color : black;
+}
 .iconFarm {
   width: 10vh;
   margin-bottom: 2vh;
+  transition: 1.5s;
+}
+.iconFarm:hover {
+  margin-bottom: 2vh;
+  transform: rotateX(-25deg);
+  transition: 1s;
 }
 
+/* -----------END jumbotron-top styles----------- */
+
+/* -----------aboutUs styles----------- */
+
+.mainBlockAbout {
+  margin-top: 3vmin;
+  border-bottom: 1.5vh solid #a8e063;
+  margin-bottom: 7vh;
+}
+.jumbotron.aboutUs {
+  height: 35vh;
+  margin-bottom: 8vh !important;
+  text-align: center;
+  color : white;
+  background: linear-gradient(to right, #56ab2f, #a8e063);
+}
 .iconLike {
   width: 11vh;
   margin-top: 2vh;
+  transition: 1.5s;
 }
-
-.mainBlockAbout {
-  border-bottom: 1.5vh solid #a8e063;
-  margin-bottom: 7vh;
-  margin-top: 3vmin;
+.iconLike:hover {
+  width: 11vh;
+  margin-top: 2vh;
+  transform: rotateX(-25deg);
+  transition: 1s;
 }
-
 .infoAbout {
   margin-bottom: 4.5vh;
 }
-
 .aboutUsTitle {
   margin-top: -3.5vmin
 }
 
-.logosPartners {
-  width: 12.2vmin;
-  height: 12.2vmin;
+/*-----------END aboutUs styles----------- */
+
+
+/* -----------production styles----------- */
+
+.productCard {
+  display: inline-block;
+  width: 15.36vmin;
+  height: 15.36vmin;
   margin: 1vmin;
+  padding-top: 1.5vh;
+  border: 1px solid #ffbb33;
+  text-align: center;
+  font-size: 2vmin;
+  overflow: hidden;
+  cursor: default;
+  color: transparent;
+}
+.productCard.active {
+  width: 15.36vmin;
+  height: 15.36vmin;
+  padding-top: 6vmin;
+  border-radius: 0.5vmin;
+  font-size: 1.7vmin;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  cursor: default;
+  transform:scale(1.07);
+  background-color: #ffbb33;
+}
+.cardImg {
+  width:inherit;
+  transition: 0.5s;
   transform: scale(0.7);
 }
+.cardImg.active {
+  display: none;
+  transition: 0.5s;
+}
 
+/* -----------END production styles----------- */
+
+
+/* -----------chooseUs styles----------- */
+.mainBlockChooseUs{
+  background: #f5f5f5;
+  padding-bottom: 11vmin;
+}
 .jumbotron.chooseUs {
-  background: white;
-  margin-top: 15vmin;
+  margin-top: 16vmin;
+  background: none;
+}
+.iconСhooseUs {
+  width : 11vh;
+}
+.titleChooseUs {
+  font-weight: bold;
+  font-size : 3vh;
+  color : #202020;
+  margin-top: 7vmin;
 }
 
 .titleInfoChooseUs {
+  margin-top: 2vmin;
+  margin-bottom: 0;
+  font-size: 1.8vmin;
   font-weight: bold;
-  margin: 0;
 }
-
+.textInfoChooseUs {
+  font-size: 1.8vmin;
+}
 .infoChooseUs {
-  transition: 0.5s;
+  transition: 0.7s;
 }
-
 .infoChooseUs:hover {
   transform: scale(1.05);
-  transition: 0.5s;
+  transition: 0.7s;
   cursor:default;
 }
 
+/*-----------END chooseUs styles----------- */
+
+
+/*-----------partners styles----------- */
+
 .partners {
   margin-top: 15vmin;
+}
+.logosPartners {
+  width: 11.5vmin;
+  height: 11.5vmin;
+  margin: 1vmin;
+  transform: scale(0.7);
+}
+.titlePartners {
+  margin-bottom: 15vmin;
+  font-weight: bold;
+}
+
+/*-----------END partners styles----------- */
+
+
+/*-----------DeliveryGeography style----------- */
+.map {
+  width: inherit;
+}
+.titleDeliveryGeography {
+  margin-top: 15vmin;
+  margin-bottom: 15vmin;
+  color : #202020;
 }

@@ -8,6 +8,7 @@ import Production from './Production.js';
 import AboutUs from './AboutUs.js';
 import Partners from './Partners.js';
 import ChooseUs from './СhooseUs.js';
+import DeliveryGeography from './DeliveryGeography.js';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
        <AboutUs />
        <Production />
        <ChooseUs />
+       <DeliveryGeography />
        <Partners />
       </div>
     );

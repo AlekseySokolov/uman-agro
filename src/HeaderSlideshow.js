@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import headerWallpaper from './headerWallpaper.jpg'
-import headerWallpaper2 from './headerWallpaper2.jpg'
-import headerWallpaper3 from './headerWallpaper3.jpg'
+import headerWallpaper1 from './headerWallpaper.jpg';
+import headerWallpaper2 from './headerWallpaper2.jpg';
+import headerWallpaper3 from './headerWallpaper3.jpg';
 import { Fade } from 'react-slideshow-image';
 
 const fadeImages = [
-  headerWallpaper,
+  headerWallpaper1,
   headerWallpaper2,
   headerWallpaper3
 ];
