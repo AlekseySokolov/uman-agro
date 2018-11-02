@@ -1,24 +1,31 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import testImg from './test2.png';
-import cn from 'classnames';
+import newsImage1 from './newsImages/newsImage1.jpg';
+import newsImage2 from './newsImages/newsImage2.jpg';
+import newsImage3 from './newsImages/newsImage3.jpg';
+import newsImage4 from './newsImages/newsImage4.jpg';
 
 const newsItems = [
   {
-    src: testImg,
-    title: "Заголовок один",
-    text: "тестовый текст номер один"
+    src: newsImage1,
+    title: "Ищем поставщиков кормового зерна",
+    text: "Приглашаем к сотрудничеству поставщиков пшеницы, ячменя, гороха в Пермском крае, Республике Башкортостан, Оренбургской, Челябинской, Свердловской, Курганской областях."
   },
   {
-    src: testImg,
-    title: "Заголовок два",
-    text : "тестовый текст номер два"
+    src: newsImage2,
+    title: "Закупаем рапс",
+    text : "На постоянной основе ведем закупку рапса на следующих элеваторах: Куркачинское ХПП (Республика Татарстан), Клявлинское ХПП (Самарская область), ООО «НоваТрейд» (Республика Башкортостан), Сергачский элеватор (Нижегородская область)"
   },
   {
-    src: testImg,
-    title: "Заголовок три",
-    text: "тестовый текст номер три"
+    src: newsImage3,
+    title: "Приглашаем к сотрудничеству",
+    text: "Приглашаем к сотрудничеству на выгодных условиях: сельхозпроизводителей и перевозчиков зерна."
+  },
+  {
+    src: newsImage4,
+    title: "Ведем закупку",
+    text: "Закупаем с хозяйств и на элеваторах: пшеницу, горох, рапс, ячмень, рыжик, гречиху, подсолнечник."
   }
 ];
 
@@ -51,7 +58,7 @@ class NewsBlock extends React.Component {
    render() {
      const cardContent = newsItems.map((item, index) =>
 
-      <div className="card mb-3" style={{width:"65vh"}} key={index}>
+      <div className="card mb-3 mainBlockNews" style={{width:"75vh"}} key={index}>
       <img className="card-img-top" src={item.src} alt={item.title} />
       <div className="card-body">
         <h5 className="card-title" style={{color:"#d9534f"}}>{item.title}</h5>
@@ -68,8 +75,8 @@ class NewsBlock extends React.Component {
        </div>
         <div className="d-flex justify-content-center" style={{marginTop : "2vmin"}}>
          <div className="btn-group" role="group" aria-label="Basic example">
-          <button type="button" className="btn btn-light btnNews" onClick={this.prevHandleClick}>Назад</button>
-          <button type="button" className="btn btn-light btnNews" onClick={this.nextHandleClick}>Вперед</button>
+          <button type="button" className="btn btn-success btnNews" onClick={this.prevHandleClick}>Назад</button>
+          <button type="button" className="btn btn-success btnNews" onClick={this.nextHandleClick}>Вперед</button>
          </div>
         </div>
        </div>
