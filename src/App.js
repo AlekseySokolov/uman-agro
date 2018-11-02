@@ -9,6 +9,7 @@ import AboutUs from './AboutUs.js';
 import Partners from './Partners.js';
 import ChooseUs from './СhooseUs.js';
 import DeliveryGeography from './DeliveryGeography.js';
+import NewsBlock from './NewsBlock.js';
 
 class App extends Component {
   render() {
@@ -19,9 +20,11 @@ class App extends Component {
        <Jumbotron />
        <AboutUs />
        <Production />
+              <DeliveryGeography />
        <ChooseUs />
-       <DeliveryGeography />
+       <NewsBlock />
        <Partners />
+
       </div>
     );
   }
