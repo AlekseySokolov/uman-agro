@@ -7,13 +7,15 @@ import gost from './Gost.png';
 import partner from './partner.png';
 import plus from './plus.png';
 import payment from './payment.png';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class ChooseUs extends React.Component {
   render() {
     return (
 
        <div className="container-fluid mainBlockChooseUs">
-        <div className="jumbotron chooseUs"><h3 className="text-center titleChooseUs lead" style={{fontSize : "3vh", color : "#202020"}}>Почему клиенты выбирают ЮМАН?</h3></div>
+         <ScrollableAnchor id={'section3'}><div></div></ScrollableAnchor>
+        <div className="jumbotron chooseUs"><h3 className="text-center titleChooseUs lead" style={{fontSize : "3vh", fontWeight : "bold", color:"#ff4444"}}>Почему клиенты выбирают ЮМАН?</h3></div>
         <div className="container">
         <div className="row">
          <div className="col text-center infoChooseUs"><img src={delivery} className="rounded mx-auto d-block iconСhooseUs" alt="..." /><p className="titleInfoChooseUs">Оперативная</p><p className="textInfoChooseUs">поставка</p></div>

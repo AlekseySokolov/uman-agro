@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import headerWallpaper1 from './headerWallpaper.jpg';
 import headerWallpaper2 from './headerWallpaper2.jpg';
 import headerWallpaper3 from './headerWallpaper3.jpg';
@@ -23,6 +24,7 @@ const fadeProperties = {
 const HeaderSlideshow = () => {
   return (
    <div className="container-fluid headerSlideShow">
+    <ScrollableAnchor id={'section0'}><div></div></ScrollableAnchor>
     <Fade {...fadeProperties}>
       <div className="each-fade">
         <div className="image-container">

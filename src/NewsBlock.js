@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import newsImage1 from './newsImages/newsImage1.jpg';
 import newsImage2 from './newsImages/newsImage2.jpg';
 import newsImage3 from './newsImages/newsImage3.jpg';
@@ -61,7 +62,7 @@ class NewsBlock extends React.Component {
       <div className="card mb-3 mainBlockNews" style={{width:"75vh"}} key={index}>
       <img className="card-img-top" src={item.src} alt={item.title} />
       <div className="card-body">
-        <h5 className="card-title" style={{color:"#d9534f"}}>{item.title}</h5>
+        <h5 className="card-title" style={{color:"#ff4444"}}>{item.title}</h5>
         <p className="card-text">{item.text}</p>
       </div>
     </div>
@@ -69,14 +70,15 @@ class NewsBlock extends React.Component {
 
      return (
        <div className="container">
-       <h3 className="text-center titleNews lead" style={{fontSize : "3vh", color : "#202020"}}>Последние новости</h3>
+        <ScrollableAnchor id={'section5'}><div></div></ScrollableAnchor>
+       <h3 className="text-center titleNews lead" style={{fontSize : "3vh", fontWeight : "bold", color : "#ff4444"}}>Последние новости</h3>
         <div className="d-flex justify-content-center">
         {cardContent[this.state.index]}
        </div>
         <div className="d-flex justify-content-center" style={{marginTop : "2vmin"}}>
          <div className="btn-group" role="group" aria-label="Basic example">
-          <button type="button" className="btn btn-success btnNews" onClick={this.prevHandleClick}>Назад</button>
-          <button type="button" className="btn btn-success btnNews" onClick={this.nextHandleClick}>Вперед</button>
+          <button type="button" className="btn btn-outline-success btnNews" onClick={this.prevHandleClick}>Назад</button>
+          <button type="button" className="btn btn-outline-success btnNews" onClick={this.nextHandleClick}>Вперед</button>
          </div>
         </div>
        </div>

@@ -3,6 +3,7 @@
   width: 12vmin;
   margin-right: 2vmin;
   margin-bottom: 1vmin;
+  cursor: pointer;
 }
 .iconPhone {
   width: 2vmin;
@@ -49,7 +50,7 @@
 
 .mainBlockAbout {
   margin-top: 3vmin;
-  border-bottom: 1vh solid #a8e063;
+  border-bottom: 1vh solid #00C851;
   margin-bottom: 7vh;
 }
 .jumbotron.aboutUs {
@@ -57,7 +58,7 @@
   margin-bottom: 8vh !important;
   text-align: center;
   color : white;
-  background: linear-gradient(to right, #56ab2f, #a8e063);
+  background: #00C851;
 }
 .iconLike {
   width: 11vh;
@@ -88,7 +89,7 @@
   height: 15.36vmin;
   margin: 1vmin;
   padding-top: 1.5vh;
-  border: 1px solid #ffbb33;
+  border: 0.3px solid #00C851;
   text-align: center;
   font-size: 2vmin;
   overflow: hidden;
@@ -99,6 +100,7 @@
   width: 15.36vmin;
   height: 15.36vmin;
   padding-top: 6vmin;
+  border: 1px transparent;
   border-radius: 0.5vmin;
   font-size: 1.7vmin;
   color: white;
@@ -106,7 +108,7 @@
   transition: 0.3s;
   cursor: default;
   transform:scale(1.07);
-  background-color: #ffbb33;
+  background-color: #00C851;
 }
 .cardImg {
   width:inherit;
@@ -127,12 +129,13 @@
   padding-bottom: 11vmin;
 }
 .jumbotron.chooseUs {
-  margin-top: 16vmin;
+  margin-top: 8vmin;
   background: none;
 }
 .iconСhooseUs {
   width : 11vh;
   margin-top: 3vmin;
+  transition: 0.5s;
 }
 .titleChooseUs {
   font-weight: bold;
@@ -153,9 +156,9 @@
 .infoChooseUs {
   transition: 0.7s;
 }
-.infoChooseUs:hover {
-  transform: scale(1.05);
-  transition: 0.7s;
+.iconСhooseUs:hover {
+  transform: rotate(10deg);
+  transition: 0.5s;
   cursor:default;
 }
 
@@ -170,7 +173,7 @@
 }
 .titleDeliveryGeography {
   margin-top: 15vmin;
-  margin-bottom: 10vmin;
+  margin-bottom: 5vmin;
   color : #202020;
 }
 
@@ -182,7 +185,7 @@
   height: 60vh;
 }
 .titleNews {
-  margin-bottom: 5vmin;
+  margin-bottom: 15vmin;
   margin-top: 15vmin;
 }
 .btnNews {
@@ -197,7 +200,7 @@
 
 .partners {
   margin-top: 20vmin;
-  margin-bottom: 20vmin;
+  margin-bottom: 15vmin;
 }
 .titlePartners {
   margin-bottom: 10vmin;
@@ -217,9 +220,7 @@
 /*-----------footer styles----------- */
 
 .footer {
-  margin-top: 2vmin;
   padding-top: 5vmin;
-  height: 23vh;
-  background: #ffbb33;
-  border-bottom: 3vh solid #dba029;
+  height: 25vh;
+  background: #00C851;
 }
