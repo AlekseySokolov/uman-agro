@@ -6,8 +6,8 @@ class Footer extends React.Component {
   render () {
     return (
       <div className="container-fluid footer">
-      <p className="lead text-center text-light" style={{fontWeight : "bold"}}>www.uman-agro.ru</p>
-      <p className="lead text-center text-light" style={{fontWeight : "bold"}}>(843) 528-28-47 г. Казань, ул. Чистопольская, 71а</p>
+      <p className="lead text-center text-light" style={{fontWeight : "bold", fontSize : "16px"}}>www.uman-agro.ru</p>
+      <p className="lead text-center text-light" style={{fontWeight : "bold", fontSize : "16px"}}>8 (843) 528 28 47 г. Казань, ул. Чистопольская, 71а</p>
       </div>
     )
   }

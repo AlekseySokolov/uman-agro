@@ -14,10 +14,9 @@ class ChooseUs extends React.Component {
     return (
 
        <div className="container-fluid mainBlockChooseUs">
-         <ScrollableAnchor id={'section3'}><div></div></ScrollableAnchor>
-        <div className="jumbotron chooseUs"><h3 className="text-center titleChooseUs lead" style={{fontSize : "3vh", fontWeight : "bold", color:"#ff4444"}}>Почему клиенты выбирают ЮМАН?</h3></div>
+        <div className="jumbotron chooseUs"><h3 className="text-center titleChooseUs lead" style={{fontSize : "21px", fontWeight : "bold", color:"#ff4444"}}>Почему клиенты выбирают ЮМАН?</h3></div>
         <div className="container">
-        <div className="row">
+        <div className="row justify-content-md-center">
          <div className="col text-center infoChooseUs"><img src={delivery} className="rounded mx-auto d-block iconСhooseUs" alt="..." /><p className="titleInfoChooseUs">Оперативная</p><p className="textInfoChooseUs">поставка</p></div>
          <div className="col text-center infoChooseUs"><img src={payment} className="rounded mx-auto d-block iconСhooseUs" alt="..." /><p className="titleInfoChooseUs">Гибкая форма</p><p className="textInfoChooseUs">оплаты</p></div>
          <div className="col text-center infoChooseUs"><img src={documents} className="rounded mx-auto d-block iconСhooseUs" alt="..." /><p className="titleInfoChooseUs">Полный пакет</p><p className="textInfoChooseUs">документов</p></div>
@@ -26,6 +25,7 @@ class ChooseUs extends React.Component {
          <div className="col text-center infoChooseUs"><img src={plus} className="rounded mx-auto d-block iconСhooseUs" alt="..." /><p className="titleInfoChooseUs">Широкий</p><p className="textInfoChooseUs">ассортимент</p></div>
         </div>
       </div>
+        <ScrollableAnchor id={'section5'}><div></div></ScrollableAnchor>
        </div>
   )
   }

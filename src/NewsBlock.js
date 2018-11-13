@@ -63,15 +63,14 @@ class NewsBlock extends React.Component {
       <img className="card-img-top" src={item.src} alt={item.title} />
       <div className="card-body">
         <h5 className="card-title" style={{color:"#ff4444"}}>{item.title}</h5>
-        <p className="card-text">{item.text}</p>
+        <p className="card-text" style={{fontSize : "16px"}}>{item.text}</p>
       </div>
     </div>
   );
 
      return (
        <div className="container">
-        <ScrollableAnchor id={'section5'}><div></div></ScrollableAnchor>
-       <h3 className="text-center titleNews lead" style={{fontSize : "3vh", fontWeight : "bold", color : "#ff4444"}}>Последние новости</h3>
+       <h3 className="text-center titleNews lead" style={{fontSize : "21px", fontWeight : "bold", color : "#ff4444"}}>Последние новости</h3>
         <div className="d-flex justify-content-center">
         {cardContent[this.state.index]}
        </div>

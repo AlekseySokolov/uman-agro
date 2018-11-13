@@ -39,7 +39,7 @@ onClickCollapseMenu() {
         </button>
         <div className={collapseMenuClassSwitch} id="navbarSupportedContent">
           <br />
-         <ul  className="navbar-nav mr-auto"  style={{fontWeight:"bold",fontSize:"1.8vh"}}>
+         <ul  className="navbar-nav mr-auto"  style={{fontWeight:"bold",fontSize:"14px"}}>
           <li className="nav-item">
             <a className="nav-link text-success" href="#section1">Продукция</a>
           </li>
@@ -47,7 +47,7 @@ onClickCollapseMenu() {
             <a className="nav-link text-success" href="#section4">География поставок</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-success" href="#section3">Приемущества</a>
+            <a className="nav-link text-success" href="#section3">Преимущества</a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-success" href="#section5">Новости</a>
@@ -57,10 +57,10 @@ onClickCollapseMenu() {
           </li>
          </ul>
           <span className="navbar-text text-info">
-            <img className="iconPhone" src={iconPhone} />
-          </span>
-          <span className="navbar-text text-info">
-            <p style={{color:"#ff4444",fontWeight:"bold",fontSize:"1.8vh",marginTop : '2vh'}}>Казань, ул.Чистопольская, 71а (8 843 528 28 47)</p>
+            <p style={{color:"#ff4444",fontWeight:"bold",fontSize:"14px",marginTop : '2.2vh'}}>Казань, ул.Чистопольская, 71а
+              <span className="navbar-text text-info">
+               <img className="iconPhone" src={iconPhone} />
+              </span> 8 (843) 528 28 47</p>
           </span>
         </div>
       </nav>

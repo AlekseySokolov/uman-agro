@@ -6,9 +6,9 @@
   cursor: pointer;
 }
 .iconPhone {
-  width: 2vmin;
-  margin-right: 0.5vh;
-  margin-bottom: 0.1vh;
+  width: 15px;
+  margin-left: 0.5vh;
+  margin-bottom: 5px;
 }
 
 /*-----------END navbar styles----------- */
@@ -34,8 +34,8 @@
   color : black;
 }
 .iconFarm {
-  width: 10vh;
-  margin-bottom: 2vh;
+  width: 70px;
+  margin-bottom: 4vh;
   transition: 1.5s;
 }
 .iconFarm:hover {
@@ -54,22 +54,15 @@
   margin-bottom: 7vh;
 }
 .jumbotron.aboutUs {
-  height: 35vh;
+  height: 350px;
   margin-bottom: 8vh !important;
   text-align: center;
   color : white;
   background: #00C851;
 }
 .iconLike {
-  width: 11vh;
-  margin-top: 2vh;
-  transition: 1.5s;
-}
-.iconLike:hover {
-  width: 11vh;
-  margin-top: 2vh;
-  transform: rotateX(-25deg);
-  transition: 1s;
+  width: 75px;
+  margin-top: 30px;
 }
 .infoAbout {
   margin-bottom: 4.5vh;
@@ -84,9 +77,9 @@
 /* -----------production styles----------- */
 
 .productCard {
-  display: inline-block;
-  width: 15.36vmin;
-  height: 15.36vmin;
+  display: grid;
+  width: 15vh;
+  height: 15vh;
   margin: 1vmin;
   padding-top: 1.5vh;
   border: 0.3px solid #00C851;
@@ -97,17 +90,17 @@
   color: transparent;
 }
 .productCard.active {
-  width: 15.36vmin;
-  height: 15.36vmin;
-  padding-top: 6vmin;
+  width: 15vh;
+  height: 15vh;
+  padding-top: 5.8vh;
   border: 1px transparent;
-  border-radius: 0.5vmin;
-  font-size: 1.7vmin;
+  border-radius: 0.5vh;
+  font-size: 1.8vh;
   color: white;
   text-align: center;
   transition: 0.3s;
   cursor: default;
-  transform:scale(1.07);
+  transform:scale(1.02);
   background-color: #00C851;
 }
 .cardImg {
@@ -133,7 +126,7 @@
   background: none;
 }
 .iconСhooseUs {
-  width : 11vh;
+  width : 100px;
   margin-top: 3vmin;
   transition: 0.5s;
 }
@@ -147,17 +140,17 @@
 .titleInfoChooseUs {
   margin-top: 2vmin;
   margin-bottom: 0;
-  font-size: 1.8vmin;
+  font-size: 14px;
   font-weight: bold;
 }
 .textInfoChooseUs {
-  font-size: 1.8vmin;
+  font-size: 14px;
 }
 .infoChooseUs {
   transition: 0.7s;
 }
 .iconСhooseUs:hover {
-  transform: rotate(10deg);
+  transform: scale(1.05);
   transition: 0.5s;
   cursor:default;
 }
@@ -173,7 +166,7 @@
 }
 .titleDeliveryGeography {
   margin-top: 15vmin;
-  margin-bottom: 5vmin;
+  margin-bottom: 10px;
   color : #202020;
 }
 
@@ -182,15 +175,15 @@
 
 /*-----------blockNews style----------- */
 .mainBlockNews {
-  height: 60vh;
+  height: 550px;
 }
 .titleNews {
   margin-bottom: 15vmin;
   margin-top: 15vmin;
 }
 .btnNews {
-  width: 12vh;
-  margin-bottom: 4vmin;
+  width: 125px;
+  margin-bottom: 2vmin;
 }
 
 /*-----------END blockNews style----------- */
@@ -207,12 +200,11 @@
   font-weight: bold;
 }
 .logosPartners {
-  width: 11vmin;
-  height: 11vmin;
-  margin: 1.2vmin;
-  padding: 0.8vmin;
+  width: 85px;
+  height: 85px;
+  margin: 5px;
+  padding: 5px;
 }
-
 
 /*-----------END partners styles----------- */
 
@@ -220,7 +212,7 @@
 /*-----------footer styles----------- */
 
 .footer {
-  padding-top: 5vmin;
-  height: 25vh;
+  padding-top: 4vh;
+  height: 22vh;
   background: #00C851;
 }
